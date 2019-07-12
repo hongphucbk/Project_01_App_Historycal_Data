@@ -1,0 +1,28 @@
+Model version 1 .
+
+
+
+step1 : Service --->PLC
+       send request  to DB9 ,Read  alll byte 
+
+Step2 :  recieve data from plc 
+		check data recieve 
+			15 varibale : -->Function get Start,Stop,Complete from M1--M5
+			Start Bit -->
+			Stop Bit
+			Complete Bit 
+			true -->Step 3
+			false -->Step 1
+
+
+Step 3 :  convert data : 
+			map byte recieved to data Tag 
+			map to Queue 
+			new thresh insert MS MSQL
+
+
+
+Step 4 : return step 1
+ 
+ 
+ 

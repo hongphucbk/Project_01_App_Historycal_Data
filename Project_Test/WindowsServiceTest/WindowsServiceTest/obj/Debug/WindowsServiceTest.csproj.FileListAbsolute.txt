@@ -1,0 +1,1 @@
+D:\05. PLC\SERVICE\Project_Test\WindowsServiceTest\WindowsServiceTest\bin\Debug\WindowsServiceTest.exe.config
